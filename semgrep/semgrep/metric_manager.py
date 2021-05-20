@@ -1,5 +1,4 @@
 import hashlib
-import logging
 from typing import Any
 from typing import Dict
 from typing import List
@@ -7,11 +6,12 @@ from typing import Optional
 
 from semgrep.constants import SEMGREP_USER_AGENT
 from semgrep.rule import Rule
+from semgrep.verbose_logging import getLogger
 
 
 METRICS_ENDPOINT = "https://metrics.semgrep.dev"
 
-logger = logging.getLogger(__name__)
+logger = getLogger(__name__)
 
 
 class _MetricManager:

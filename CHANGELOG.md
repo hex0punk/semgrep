@@ -12,6 +12,7 @@ This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html
 - Evaluate interpolated strings during constant propagation (#3127)
 
 ### Changed
+- Moved some debug logging to verbose logging
 
 ## [0.52.0](https://github.com/returntocorp/semgrep/releases/tag/v0.52.0) - 2021-05-18
 
